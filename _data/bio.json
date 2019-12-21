@@ -1,39 +1,34 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
+    "name": "Xingchen Zhao",
     "label": "Student",
-    "picture": "https://techfolios.github.io/template/images/molly.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2020.",
+    "picture": "https://techfolios.github.io/template/images/xingchen.jpg",
+    "email": "xiz168@pitt.edu",
+    "phone": "571-525-4502",
+    "website": "https://xingchenzhao.github.io",
+    "summary": "I am studying for a B.S. in Computer Science in the School of Computing and Information at the University of Pittsburgh. I expect to graduate in Spring, 2021.",
     "location": {
-      "address": "",
-      "postalCode": "96822",
-      "city": "Honolulu",
+      "address": "4200 Fifth Ave.",
+      "postalCode": "15213",
+      "city": "Pittsburgh",
       "countryCode": "USA",
-      "region": "Hawaii"
+      "region": "Pennsylvania"
     },
     "profiles": [
       {
         "network": "github",
-        "username": "mmaluhia",
-        "url": "http://github.com/changeme"
+        "username": "xingchenzhao",
+        "url": "http://github.com/xingchenzhao"
       },
       {
         "network": "linkedin",
-        "username": "mollymaluhia",
-        "url": "http://linkedin.com/in/changeme"
-      },
-      {
-        "network": "twitter",
-        "username": "mollymal",
-        "url": "http://twitter.com/changeme"
+        "username": "xingchenzhao",
+        "url": "http://linkedin.com/in/xingchenzhao"
       },
       {
         "network": "instagram",
-        "username": "molly",
-        "url": "http://instagram.com/changeme"
+        "username": "xingchen_zzzh",
+        "url": "http://www.instagram.com/xingchen_zzzh/"
       }
     ]
   },
