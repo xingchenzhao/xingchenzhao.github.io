@@ -24,9 +24,9 @@ summary: An in-depth full stack social network application for developers
 
 # DevExchange (might be a little slow to load)
 > A small social network for developers 
-> https://devexchange.herokuapp.com (might be a little bit to load)
-> https://github.com/xingchenzhao/DevExchange
-This is an in depth full stack(MERN Stack) social network application(DevExchange) using Node.js, Express, React, Redux and MongoDB along with ES6+.
+> * https://devexchange.herokuapp.com (might be a little bit to load)
+> * https://github.com/xingchenzhao/DevExchange
+* This is an in depth full stack(MERN Stack) social network application(DevExchange) using Node.js, Express, React, Redux and MongoDB along with ES6+.
 
 ## Personal Side Project
 * Building an extensive backend API with Node.js & Express
