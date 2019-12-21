@@ -10,6 +10,6 @@ labels:
   - R
   - Data Science
 summary: A final team project for a data science course
-projecturl: https://xingchenzhao.github.io/_includes/Final_Project_Part2.html
+projecturl: https://google.com
 ---
 
