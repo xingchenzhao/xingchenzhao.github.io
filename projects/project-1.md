@@ -22,7 +22,7 @@ summary: An in-depth full stack social network application for developers
   <img class="ui image" src="../images/devExchange_Resume.png">
 </div>
 
-# DevExchange (http://devexchange.xyz)(https://github.com/xingchenzhao/DevExchange)
+# DevExchange (http://devexchange.herokuapp.com)(https://github.com/xingchenzhao/DevExchange)
 > A small social network for developers 
 
 This is an in depth full stack(MERN Stack) social network application(DevExchange) using Node.js, Express, React, Redux and MongoDB along with ES6+.
