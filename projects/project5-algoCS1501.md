@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: images/algorithm.png
-title: CS1501 Algorithm Implementation (University Course)
+title: CS1501 Algorithm Implementation Projects (University Course)
 permalink: projects/cs1501
 # All dates must be YYYY-MM-DD format!
 date: 2019-04-30
@@ -10,7 +10,7 @@ labels:
   - Java
   - Algorithm
   - Data Structure
-summary: CS1501(Spring 2019) Algorithm Implementation (University of Pittsburgh)
+summary: CS1501(Spring 2019) Algorithm Implementation Projects (University of Pittsburgh)
 ---
 
 <div class="ui small rounded images">
