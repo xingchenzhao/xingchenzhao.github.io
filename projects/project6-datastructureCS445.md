@@ -20,7 +20,7 @@ summary: CS0445(Fall 2018) Data Structure Projects (University of Pittsburgh)
 
 https://github.com/xingchenzhao/cs445
 
-## Course Plan
+## Course Outline
 
 **Goal:**
 This course emphasizes the study of the basic data structures of computer science (stacks, queues, trees, lists) and their implementations using the java language included in this study are programming techniques which use recursion, reference variables, and dynamic memory allocation. Students in this course are also introduced to various searching and sorting methods and also expected to develop an intuitive understanding of the complexity of these algorithms.
