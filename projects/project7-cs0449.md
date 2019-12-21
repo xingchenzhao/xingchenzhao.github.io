@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/operatingsystem.png
+image: images/operatingsystem.jpg
 title: CS0449 Intro to Systems Programming Projects (University Course)
 permalink: projects/cs0449
 # All dates must be YYYY-MM-DD format!
@@ -13,7 +13,7 @@ summary: CS0449(Spring 2019) Intro to Systems Programming Projects (University o
 ---
 
 <div class="ui small rounded images">
-  <img class="ui image" src="../images/operatingsystem.png">
+  <img class="ui image" src="../images/operatingsystem.jpg">
 </div>
 
 # CS0449 (Spring 2019) Intro to Systems Programming Projects (University of Pittsburgh)
