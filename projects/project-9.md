@@ -7,8 +7,9 @@ permalink: projects/cs1550
 # All dates must be YYYY-MM-DD format!
 date: 2018-12-15
 labels:
-  - C
-  - Operating System
+  - Assembly Language
+  - Computer Organization
+  - MIPS
 summary: CS0447 Computer Organization and Assembly Language Projects (University Course)
 ---
 <div class="ui small rounded images">
