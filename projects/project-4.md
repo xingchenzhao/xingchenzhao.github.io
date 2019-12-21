@@ -42,7 +42,8 @@ java -cp postgresql-42.2.5.jar:. driver
 ```java
 //Remeber to modify database credentials at the start of the class) Run Driver.java for general testing. (Remeber to modify //database credentials at the start of the PittSocial class and Driver class)
 
+//open pittsocial.java and find the following codes
 static String DB_username = "postgres"; // modify here
-static String DB_password = "zhao139"; // modify here
+static String DB_password = "xxx"; // modify here
 static String url = "jdbc:postgresql://localhost:5432/pitt_social?currentSchema=public";//modify here
 ```
