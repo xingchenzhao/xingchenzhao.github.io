@@ -20,7 +20,6 @@ summary: CS1501(Spring 2019) Algorithm Implementation (University of Pittsburgh)
 # CS1501(Spring 2019) **Algorithm Implementation (University of Pittsburgh)**
 
 (https://github.com/xingchenzhao/PittSocial)
-it's a tough class, but I learned a lot.
 
 ## Project1
 
