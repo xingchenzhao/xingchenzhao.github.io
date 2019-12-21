@@ -22,7 +22,7 @@ https://github.com/xingchenzhao/CS1550
 
 ## Course Outline
 
-**Goal:**
+**Goal: **
 An introduction to basic concepts of operating systems, common to most computer systems, which interfaces the machine with upper-level programs. This course will introduce processes as processing unit, process management, concurrency, communication, memory management and protection, and file systems.
 
 ## Projects
