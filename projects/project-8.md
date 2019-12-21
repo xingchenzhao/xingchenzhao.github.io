@@ -3,7 +3,7 @@ layout: project
 type: project
 image: images/assembly.png
 title: CS0447 Computer Organization and Assembly Language Projects (University Course)
-permalink: projects/cs1550
+permalink: projects/cs0447
 # All dates must be YYYY-MM-DD format!
 date: 2018-12-15
 labels:
