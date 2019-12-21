@@ -16,7 +16,7 @@ summary: CS0449(Spring 2019) Intro to Systems Programming Projects (University o
   <img class="ui image" src="../images/operatingsystem.png">
 </div>
 
-# CS0449(Spring 2019) Intro to Systems Programming Projects (University of Pittsburgh)
+# CS0449 (Spring 2019) Intro to Systems Programming Projects (University of Pittsburgh)
 
 https://github.com/xingchenzhao/cs449-Intro-to-Systems-Programming-
 
