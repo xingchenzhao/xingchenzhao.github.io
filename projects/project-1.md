@@ -1,44 +1,66 @@
 ---
 layout: project
 type: project
-image: images/micromouse.jpg
-title: Micromouse
-permalink: projects/micromouse
+image: images/devExchange_homeImg.png
+title: DevExchange
+permalink: projects/devexchange
 # All dates must be YYYY-MM-DD format!
-date: 2015-07-01
+date: 2019-07-01
 labels:
-  - Robotics
-  - Arduino
-  - C++
-summary: My team developed a robotic mouse that won first place in the 2015 UH Micromouse competition.
+  - JavaScript
+  - HTML&CSS
+  - React
+  - Node.js
+  - MongoDB
+  - Express
+  - Redux
+summary: An in-depth full stack social network application for developers
 ---
 
 <div class="ui small rounded images">
-  <img class="ui image" src="../images/micromouse-robot.png">
-  <img class="ui image" src="../images/micromouse-robot-2.jpg">
-  <img class="ui image" src="../images/micromouse.jpg">
-  <img class="ui image" src="../images/micromouse-circuit.png">
+  <img class="ui image" src="../images/devExchange_homeImg.png">
+  <img class="ui image" src="../images/devExchange_Resume.png">
 </div>
 
-Micromouse is an event where small robot “mice” solve a 16 x 16 maze.  Events are held worldwide.  The maze is made up of a 16 by 16 gird of cells, each 180 mm square with walls 50 mm high.  The mice are completely autonomous robots that must find their way from a predetermined starting position to the central area of the maze unaided.  The mouse will need to keep track of where it is, discover walls as it explores, map out the maze and detect when it has reached the center.  having reached the center, the mouse will typically perform additional searches of the maze until it has found the most optimal route from the start to the center.  Once the most optimal route has been determined, the mouse will run that route in the shortest possible time.
+# DevExchange (http://devexchange.xyz)
+> A small social network for developers (https://github.com/xingchenzhao/DevExchange)
 
-For this project, I was the lead programmer who was responsible for programming the various capabilities of the mouse.  I started by programming the basics, such as sensor polling and motor actuation using interrupts.  From there, I then programmed the basic PD controls for the motors of the mouse.  The PD control the drive so that the mouse would stay centered while traversing the maze and keep the mouse driving straight.  I also programmed basic algorithms used to solve the maze such as a right wall hugger and a left wall hugger algorithm.  From there I worked on a flood-fill algorithm to help the mouse track where it is in the maze, and to map the route it takes.  We finished with the fastest mouse who finished the maze within our college.
+This is an in depth full stack(MERN Stack) social network application(DevExchange) using Node.js, Express, React, Redux and MongoDB along with ES6+.
 
-Here is some code that illustrates how we read values from the line sensors:
+## Personal Side Project
+* Building an extensive backend API with Node.js & Express
+* Protecting routes/endpoints with JWT (JSON Web Tokens)
+* Extensive API testing with Postman
+* Integrating React with the backend in an elegant way, creating a great workflow
+* Building the frontend to work with API
+* Using Redux for app state management
+* Creating reducers and actions for the resoureces
+* Creating many container components that integrate with Redux
+* Testing with the Redux Chrome extension
+* Creating a build script, securing the keys and deploy to Heroku using git.
 
-```js
-byte ADCRead(byte ch)
-{
-    word value;
-    ADC1SC1 = ch;
-    while (ADC1SC1_COCO != 1)
-    {   // wait until ADC conversion is completed   
-    }
-    return ADC1RL;  // lower 8-bit value out of 10-bit data from the ADC
-}
+## Quick Start
+
+```
+#change default.json file (config/default.json)
+#add uri of your own mongodb connection. For example "mongoURI": " mongodb://localhost/dev-exchange"
 ```
 
-You can learn more at the [UH Micromouse Website](http://www-ee.eng.hawaii.edu/~mmouse/about.html).
+```bash
+# Install server dependencies
+npm install
+
+# Install client dependencies
+cd client
+npm install
+
+# Run both Express & React from root
+npm run dev
+
+# Build for production
+cd client
+npm run build
+```
 
 
 
