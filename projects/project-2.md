@@ -7,6 +7,7 @@ permalink: projects/vacay
 # All dates must be YYYY-MM-DD format!
 date: 2019-02-18
 labels:
+  - Mac
   - Swift
   - C
   - Makefile
