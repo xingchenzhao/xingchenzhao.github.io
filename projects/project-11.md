@@ -5,7 +5,7 @@ image: images/operatingsystem2.png
 title: CS1550 INTRODUCTION TO OPERATING SYSTEMS Projects (University Course)
 permalink: projects/cs1550
 # All dates must be YYYY-MM-DD format!
-date: 2019-11-29
+date: 2019-11-30
 labels:
   - C
   - Operating System
