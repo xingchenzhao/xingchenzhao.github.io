@@ -5,7 +5,7 @@ image: images/devExchange_homeImg.png
 title: DevExchange
 permalink: projects/devexchange
 # All dates must be YYYY-MM-DD format!
-date: 2019-07-01
+date: 2019-12-21
 labels:
   - JavaScript
   - HTML&CSS
