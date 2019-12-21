@@ -34,131 +34,149 @@
   },
   "interests": [
     {
-      "name": "internet of things",
+      "name": "Software Engineering ",
       "keywords": [
-        "Arduino",
-        "TI MSP430"
+        "mobile development",
+        "full stack development"
       ]
     },
     {
-      "name": "data mining",
+      "name": "Data Science",
       "keywords": [
       ]
     },
     {
-      "name": "artificial intelligence",
+      "name": "Machine Learning",
       "keywords": [
       ]
     }
   ],
   "skills": [
     {
-      "name": "Languages and Frameworks",
+      "name": "Programming Languages",
       "level": "",
       "keywords": [
-        "C",
-        "C++",
         "Java",
-        "Javascript",
+        "C",
+        "SQL",
+        "JavaScript",
         "Assembly",
-        "Common Lisp"
+        "HTML&CSS",
+        "Python",
+        "R",
+        "Swift"
       ]
     },
     {
-      "name": "Toolsets/OS",
+      "name": "Technology",
       "level": "",
       "keywords": [
-        "MacOS",
-        "Ubuntu",
-        "Git/GitHub",
-        "g++",
-        "TI LaunchPad"
+        "React",
+        "Redux",
+        "Node.js",
+        "Express",
+        "JWT",
+        "MongoDB",
+        "PostgreSQL",
+        "Oracle SQL",
+        "Git/GitHub"
       ]
     }
   ],
   "education": [
     {
-      "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
+      "institution": "University of Pittsburgh, PA",
+      "area": "Computer Science (expected Spring, 2021)",
       "studyType": "B.S.",
-      "startDate": "2013-09-01",
+      "startDate": "2017-09-01",
       "endDate": "Present",
-      "gpa": "",
+      "gpa": "3.58",
       "courses": [
+        "Algorithms",
+        "Data Structures",
+        "Operating Systems",
+        "Databases",
+        "Data Science",
+        "Computer Organization and Assembly Language",
+        "Discrete Math",
+        "Linear Algebra"
       ]
     }
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
-      "website": "",
-      "startDate": "2015-08-01",
+      "company": "Pitt sciVelo",
+      "position": "Data Management Intern",
+      "website": "http://scivelo.pitt.edu/",
+      "startDate": "2019-05-28",
       "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "summary": "",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
+        "Collaborating with several teams, built sciVelo Salesforce database to track innovation portfolio outcomes such as over 130 projects funding, licensing, intellectual property filing, etc.",
+        "University of Pittsburgh has selected our Salesforce implementation to be expanded across the campus",
+        "Creating dashboards and reports illustrating the outcomes led by sciVelo",
+        "Developing data import functions to populate the database",
+        "Generating data acquisition routines from publicly-available websites to populate the database with industry information to help with industry sponsored research initiatives",
+        "Gaining exposure to the process of commercializing early stage research projects "
       ]
     },
     {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
+      "company": "School of Computing and Information, University of Pittsburgh",
+      "position": "Teaching Assistant",
+      "website": "http://http://sci.pitt.edu/",
+      "startDate": "2018-08-27",
+      "endDate": "2019-5-01",
       "summary": "",
       "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
+        "Instructed one recitation of 30 students for “Intermediate Programming Using Java” every week",
+        "Graded quizzes and recitation assignments",
+        "Helped students by answering questions, committing office hours and mock exams",
+        "Attended meetings with professors to discuss responsibilities and concerns in the recitation"
       ]
     }
   ],
   "volunteer": [
     {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
-      "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
+      "organization": "DevExchange",
+      "website": "http://devexchange.herokuapp.com",
+      "position": "Side Project",
+      "startDate": "",
+      "endDate": "",
+      "summary": "Full Stack Web Development (MERN)",
       "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
+        "Built an in-depth full stack social network application for developers(github.com/xingchenzhao/DevExchange) using MongoDB, Express, React, and Node.js along with JavaScript ES6+",
+        "Created and tested extensive backend APIs to work with frontend, protected routes/endpoints with JWT",
+        "Used Redux for app state management, created many container components that integrated with Redux",
+        "Developed reducers and actions for the resources",
+        "Created build scripts, secured the keys and deployed to Heroku using git"
       ]
     },
     {
-      "organization": "",
-      "website": "",
-      "position": "Professional organization involvement",
+      "organization": "MathFlow",
+      "website": "github.com/xingchenzhao/MathFlow",
+      "position": "Hackathon Project",
       "startDate": "",
       "endDate": "",
-      "summary": "",
+      "summary": "Mac App Development",
       "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
+        "Created an app that automates the workflow from image equations directly to Wolfram & LaTeX codes",
+        "Built the program by Swift, executable written in C, and MathPix & Wolfram API",
+        "Used regular expressions to handle incompatibilities between the APIs"
       ]
     }
   ],
   "awards": [
     {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
+      "title": "Pitt Computer Science Club",
+      "date": "2018-2019",
+      "awarder": "University of Pittsburgh",
+      "summary": "Advised upcoming computer science students about course planning"
     },
     {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
-    }
-  ],
-  "references": [
-    {
-      "name": "Available upon request",
-      "reference": ""
+      "title": "Vibrant Media Lab",
+      "date": "2019-03-01 - 2019-06-30",
+      "awarder": "University of Pittsburgh",
+      "summary": "Collaborated with a team to develop software for OdysseyNow Project, an emulation of the Magnavox Odyssey"
     }
   ]
 }
