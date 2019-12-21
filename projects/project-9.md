@@ -10,6 +10,7 @@ labels:
   - C
   - Operating System
 summary: CS0447 Computer Organization and Assembly Language Projects (University Course)
+---
 <div class="ui small rounded images">
   <img class="ui image" src="../images/assembly.png">
 </div>
