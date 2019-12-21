@@ -24,6 +24,7 @@ summary: An app that automates the workflow from image equations directly to Wol
 # MathFlow (Project of TartanHacks 2019) 
 * An App that automates the workflow from image equations directly to Wolfram &amp; LaTeX codes.
 * Built with Swift, C, Shell
+* https://github.com/xingchenzhao/MathFlow
 
 # Inspiration
 We witnessed the extreme tediousness of copying & pasting among different platforms when math researchers read and compose papers & computable documents. This issue comes from incompatibilities among math equations in image form and major math languages: LaTeX & Wolfram.
