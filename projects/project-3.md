@@ -10,6 +10,6 @@ labels:
   - R
   - Data Science
 summary: Quantitative Financial Analysis
-projecturl: _includes/Final_Project_Part2.html
+projecturl: https://xingchenzhao.github.io/_includes/Final_Project_Part2.html
 ---
 
