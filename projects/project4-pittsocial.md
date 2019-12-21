@@ -12,7 +12,7 @@ labels:
   - Database
   - SQL
   - PostgreSQL
-summary: A Java application program that will operate PittSocial, a Social Networking System for the University of Pittsburgh.
+summary: A Java and Database application program that will operate PittSocial, a Social Networking System for the University of Pittsburgh.
 ---
 
 <div class="ui small rounded images">
