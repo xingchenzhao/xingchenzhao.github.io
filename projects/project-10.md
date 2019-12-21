@@ -10,7 +10,7 @@ labels:
   - JavaScript
   - HTML&CSS
   - React
-summary: A simple react application of movie search (github.com/xingchenzhao/MovieSearch_ReactJS)
+summary: A simple react application of movie search github.com/xingchenzhao/MovieSearch_ReactJS
 projecturl: https://xingchenzhao.github.io/MovieSearch_ReactJS
 ---
 
