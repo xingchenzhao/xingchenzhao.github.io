@@ -10,6 +10,6 @@ labels:
   - R
   - Data Science
 summary: A final team project for a data science course
-projecturl: https://xingchenzhao.github.io/STAT1261-GroupProject_Quantitative-Financial-Analysis/
+projecturl: https://xingchenzhao.github.io/QFA/
 ---
 
