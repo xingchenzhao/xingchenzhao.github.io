@@ -11,7 +11,7 @@ labels:
   - Python
   - MXNet
   - CNN
-summary: Implementation of different CNN models to recognize CIFAR-10 Image by MXNet
+summary: Implementations of different CNN models to recognize CIFAR-10 Image by MXNet
 ---
 
 
