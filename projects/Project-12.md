@@ -15,7 +15,7 @@ summary: Implementation of different CNN models to recognize CIFAR-10 Image by M
 ---
 
 
-# Kaggle-CIFAR-10-Object-Recognition-in-Images
+# [Kaggle-CIFAR-10-Object-Recognition-in-Images](https://www.kaggle.com/c/cifar-10/overview)
 Implementation of different CNN models to recognize CIFAR-10 Image by MXNet
 ## Introduction
 This repository is about different CNN architecture by using MXNet framework for CIFAR-10 dataset in kaggle.
