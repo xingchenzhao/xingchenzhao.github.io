@@ -14,6 +14,7 @@ labels:
 summary: Implementation of different CNN models to recognize CIFAR-10 Image by MXNet
 ---
 
+
 # Kaggle-CIFAR-10-Object-Recognition-in-Images
 Implementation of different CNN models to recognize CIFAR-10 Image by MXNet
 ## Introduction
@@ -45,7 +46,5 @@ After 200 epochs, loss is 0.004943, training accuracy is 0.998640, and kaggle sc
 ## Future
 - Add more image augmentatation and modify the hyperparameter to optimize the models
 - Implement more models such as AlexNet, DenseNet, and GooLeNet to recognize CIFAR-10, and even CIFAR-100 and ImageNet.
-
-
 
 
