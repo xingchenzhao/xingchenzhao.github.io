@@ -164,19 +164,5 @@
         "Used regular expressions to handle incompatibilities between the APIs"
       ]
     }
-  ],
-  "awards": [
-    {
-      "title": "Pitt Computer Science Club",
-      "date": "2018-2019",
-      "awarder": "University of Pittsburgh",
-      "summary": "Advised upcoming computer science students about course planning"
-    },
-    {
-      "title": "Vibrant Media Lab",
-      "date": "2019-03-01 - 2019-06-30",
-      "awarder": "University of Pittsburgh",
-      "summary": "Collaborated with a team to develop software for OdysseyNow Project, an emulation of the Magnavox Odyssey"
-    }
   ]
 }
