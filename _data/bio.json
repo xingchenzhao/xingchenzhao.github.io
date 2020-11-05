@@ -24,15 +24,15 @@
         "network": "linkedin",
         "username": "xingchenzhao",
         "url": "http://linkedin.com/in/xingchenzhao"
-      },
-      {
-        "network": "instagram",
-        "username": "xingchen_zzzh",
-        "url": "http://www.instagram.com/xingchen_zzzh/"
       }
     ]
   },
   "interests": [
+    {
+      "name": "Deep Learning",
+      "keywords": [
+      ]
+    },
     {
       "name": "Software Engineering ",
       "keywords": [
@@ -42,11 +42,6 @@
     },
     {
       "name": "Data Science",
-      "keywords": [
-      ]
-    },
-    {
-      "name": "Machine Learning",
       "keywords": [
       ]
     }
