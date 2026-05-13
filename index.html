@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Xingchen Zhao</title>
+    <meta
+      name="description"
+      content="Xingchen Zhao is a machine learning engineer and researcher working on GenAI systems, multimodal models, agents, post-training, inference, and ML infrastructure."
+    />
+    <meta property="og:title" content="Xingchen Zhao" />
+    <meta
+      property="og:description"
+      content="Machine learning engineer and researcher working on GenAI systems, multimodal models, agents, post-training, inference, and ML infrastructure."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="assets/images/xingchen-zhao.png" />
+    <link rel="icon" type="image/png" href="assets/images/xingchen-zhao.png" />
+    <link rel="preload" as="image" href="assets/images/xingchen-zhao.png" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" id="home">
+      <a class="brand" href="#home" aria-label="Xingchen Zhao home">Xingchen Zhao</a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#work">Work</a>
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero section-shell" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <h1 id="hero-title">Xingchen Zhao</h1>
+          <p class="hero-summary">
+            I am a machine learning engineer at Meta working on GenAI model and
+            serving infrastructure for creative generation systems and agentic
+            workflows. My work spans diffusion transformers, LLM serving,
+            post-training and RL, multimodal video editing, robotics perception,
+            and real-time AI tutors.
+          </p>
+          <p class="hero-summary hero-summary-secondary">
+            I have 6+ years across ML research and engineering, including 3+ years
+            in GenAI, LLMs, agents, image/video generation, post-training,
+            inference, and infrastructure. Previously, I worked on
+            <span class="nowrap">Text-to-Edit</span> at TikTok, barcode-less
+            package identification at Amazon Robotics, and
+            real-time AI avatar tutors at Thinkverse as the 1st Founding Engineer.
+          </p>
+          <p class="hero-advisor">
+            I was a PhD candidate in Machine Learning at Northeastern University,
+            advised by
+            <a href="https://www1.ece.neu.edu/~yunfu/" target="_blank" rel="noreferrer">Raymond Fu</a>
+            at
+            <a href="https://fulab.sites.northeastern.edu/" target="_blank" rel="noreferrer">SMILE Lab / FuLab</a>,
+            and completed an MS in Computer Engineering there. I was also an ML
+            visiting scholar at UC San Diego.
+          </p>
+          <div class="link-row" aria-label="Contact links">
+            <a href="mailto:xiz168@yahoo.com">Email</a>
+            <a href="https://tinyurl.com/bddsvxzh" target="_blank" rel="noreferrer">Google Scholar</a>
+            <a href="https://www.linkedin.com/in/xingchenzhao/" target="_blank" rel="noreferrer">LinkedIn</a>
+          </div>
+        </div>
+        <figure class="hero-portrait">
+          <img src="assets/images/xingchen-zhao.png" alt="Portrait of Xingchen Zhao" />
+        </figure>
+      </section>
+
+      <section class="section-shell split-section" id="work" aria-labelledby="work-title">
+        <div class="section-heading">
+          <h2 id="work-title">Work Experience</h2>
+          <p>
+            Applied research and engineering across production GenAI, multimodal
+            video systems, robotics perception, and real-time AI tutoring.
+          </p>
+        </div>
+
+        <div class="work-layout">
+          <div class="work-list">
+            <article class="work-row">
+              <p class="work-time">2025 - Present</p>
+              <div>
+                <h3>Meta / Monetization GenAI</h3>
+                <p>
+                  Building large-scale GenAI model and serving infrastructure for
+                  creative generation systems. Work spans CUDA/Triton sparse attention
+                  kernels for Diffusion Transformer inference, adaptive sparse attention
+                  for video diffusion models, vLLM-based benchmarking for dense and MoE
+                  LLM serving, disaggregated prefill analysis, and RL/post-training
+                  infrastructure with VERL, GRPO, multi-objective RL, tool calling, and
+                  LLM-as-judge evaluation for agentic workflows.
+                </p>
+              </div>
+            </article>
+
+            <article class="work-row">
+              <p class="work-time">2024 - 2025</p>
+              <div>
+                <h3>TikTok / ByteDance GenAI</h3>
+                <p>
+                  Post-trained a multimodal LLM for controllable end-to-end video ad
+                  creation. The system turns product context, free-form instructions,
+                  video understanding signals, and slow-fast temporal evidence into
+                  structured edit drafts for advertising workflows.
+                </p>
+                <div class="inline-links">
+                  <a class="text-link" href="https://arxiv.org/abs/2501.05884" target="_blank" rel="noreferrer">Paper</a>
+                  <a class="text-link" href="https://ads.tiktok.com/creative/creativestudio/home/en?aioChannel=SEO&amp;aioScene=SymphonyEntrance&amp;aioCode=6a02b9c209470007" target="_blank" rel="noreferrer">Creative Studio</a>
+                  <a class="text-link" href="https://ads.tiktok.com/business/en-US/blog/tiktok-symphony-ai-creative-suite" target="_blank" rel="noreferrer">Symphony</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="work-row">
+              <p class="work-time">2023 - 2024</p>
+              <div>
+                <h3>Amazon Robotics</h3>
+                <p>
+                  Developed deployment-oriented perception models for package
+                  identification in robotics environments, including real-time edge
+                  localization and optimized ONNX/TensorRT inference for barcode-less
+                  and barcode-based package understanding.
+                </p>
+                <a class="text-link" href="https://www.amazon.science/latest-news/how-amazon-robotics-is-working-on-new-ways-to-eliminate-the-need-for-barcodes" target="_blank" rel="noreferrer">
+                  Amazon Science
+                </a>
+              </div>
+            </article>
+
+            <article class="work-row">
+              <p class="work-time">2023</p>
+              <div>
+                <h3>Thinkverse / Real-time AI Tutors</h3>
+                <p>
+                  1st Founding Engineer for an AI tutoring platform. Designed and built
+                  the end-to-end full-stack architecture for real-time avatar math
+                  tutors, moving student speech through ASR, LLM reasoning, voice
+                  generation, and lip-sync avatar rendering with user-provided character
+                  images as the base.
+                </p>
+                <a class="text-link" href="https://www.thinkverse.co/" target="_blank" rel="noreferrer">Thinkverse</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-shell research-section" id="research" aria-labelledby="research-title">
+        <div class="section-heading">
+          <h2 id="research-title">Research</h2>
+          <p>
+            My research started from domain adaptation and generalization, then moved
+            toward multimodal generation, controllable video editing, and deployed AI
+            systems.
+          </p>
+        </div>
+        <div class="research-grid">
+          <article>
+            <h3>Academic foundation</h3>
+            <p>
+              I was a PhD candidate in Machine Learning at Northeastern University,
+              advised by Raymond Fu in SMILE Lab / FuLab, and completed an MS in
+              Computer Engineering there. Earlier research includes ML visiting
+              scholar work at UC San Diego.
+            </p>
+          </article>
+          <article>
+            <h3>Research thread</h3>
+            <p>
+              Domain adaptation, domain generalization, medical imaging robustness,
+              semantic segmentation, multimodal video understanding, and LLM-driven
+              controllable editing. The common thread is making learned systems work
+              outside narrow benchmark assumptions.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-shell" id="publications" aria-labelledby="publications-title">
+        <div class="section-heading publications-heading">
+          <div>
+            <h2 id="publications-title">Publications &amp; Patent</h2>
+            <p>Selected research outputs across multimodal generation, video editing, domain adaptation, and generalization.</p>
+          </div>
+          <a class="text-link" href="https://tinyurl.com/bddsvxzh" target="_blank" rel="noreferrer">Google Scholar</a>
+        </div>
+
+        <div class="publication-list">
+          <article class="publication-row highlight-publication">
+            <a class="publication-media" href="https://arxiv.org/abs/2501.05884" target="_blank" rel="noreferrer" aria-label="Open Text-to-Edit paper">
+              <img src="assets/publications/text-to-edit.png" alt="Text-to-Edit paper method figure" />
+            </a>
+            <p class="publication-year">2025</p>
+            <div class="publication-copy">
+              <h3>Controllable End-to-End Video Ad Creation via Multimodal LLMs</h3>
+              <p>Text-to-Edit &middot; arXiv</p>
+              <p class="publication-authors">Dabing Cheng, Haosen Zhan, <strong>Xingchen Zhao</strong>, Guisheng Liu, Zemin Li, Jinghui Xie, Zhao Song, Weiguo Feng, Bingyue Peng</p>
+              <a class="text-link" href="https://arxiv.org/abs/2501.05884" target="_blank" rel="noreferrer">Paper</a>
+            </div>
+          </article>
+
+          <article class="publication-row">
+            <a class="publication-media" href="https://openaccess.thecvf.com/content/WACV2024/html/Zhao_Unsupervised_Domain_Adaptation_for_Semantic_Segmentation_With_Pseudo_Label_Self-Refinement_WACV_2024_paper.html" target="_blank" rel="noreferrer" aria-label="Open Pseudo Label Self-Refinement paper">
+              <img src="assets/publications/pseudo-label-self-refinement.png" alt="Pseudo Label Self-Refinement method framework figure" />
+            </a>
+            <p class="publication-year">2024</p>
+            <div class="publication-copy">
+              <h3>Unsupervised Domain Adaptation for Semantic Segmentation with Pseudo Label Self-Refinement</h3>
+              <p>Pseudo Label Self-Refinement &middot; WACV</p>
+              <p class="publication-authors"><strong>Xingchen Zhao</strong>, Niluthpol Chowdhury Mithun, Abhinav Rajvanshi, Han-Pang Chiu, Supun Samarasekera</p>
+              <a class="text-link" href="https://openaccess.thecvf.com/content/WACV2024/html/Zhao_Unsupervised_Domain_Adaptation_for_Semantic_Segmentation_With_Pseudo_Label_Self-Refinement_WACV_2024_paper.html" target="_blank" rel="noreferrer">Paper</a>
+            </div>
+          </article>
+
+          <article class="publication-row">
+            <a class="publication-media" href="https://patents.justia.com/patent/20240312197" target="_blank" rel="noreferrer" aria-label="Open pseudo-label curation patent application">
+              <img src="assets/publications/pseudo-label-self-refinement.png" alt="Pseudo-label curation patent related method figure" />
+            </a>
+            <p class="publication-year">2024</p>
+            <div class="publication-copy">
+              <h3>Unsupervised Domain Adaptation of Models with Pseudo-Label Curation</h3>
+              <p>US Patent Application 20240312197</p>
+              <p class="publication-authors">Han-Pang Chiu, Niluthpol C. Mithun, Supun Samarasekera, Abhinav Rajvanshi, <strong>Xingchen Zhao</strong>, Md Nazmul Karim</p>
+              <a class="text-link" href="https://patents.justia.com/patent/20240312197" target="_blank" rel="noreferrer">Patent</a>
+            </div>
+          </article>
+
+          <article class="publication-row">
+            <a class="publication-media" href="https://aclanthology.org/2024.tacl-1.25/" target="_blank" rel="noreferrer" aria-label="Open Four-Level Optimization paper">
+              <img src="assets/publications/four-level-optimization.png" alt="Four-Level Optimization overall framework figure" />
+            </a>
+            <p class="publication-year">2024</p>
+            <div class="publication-copy">
+              <h3>Simultaneous Selection and Adaptation of Source Data via Four-Level Optimization</h3>
+              <p>Four-Level Optimization &middot; TACL</p>
+              <p class="publication-authors">Pengtao Xie, <strong>Xingchen Zhao</strong>, Xuehai He</p>
+              <a class="text-link" href="https://aclanthology.org/2024.tacl-1.25/" target="_blank" rel="noreferrer">Paper</a>
+            </div>
+          </article>
+
+          <article class="publication-row">
+            <a class="publication-media" href="https://arxiv.org/abs/2102.03924" target="_blank" rel="noreferrer" aria-label="Open DANN-DG paper">
+              <img src="assets/publications/dann-dg.png" alt="DANN-DG domain generalization geometry figure" />
+            </a>
+            <p class="publication-year">2023</p>
+            <div class="publication-copy">
+              <h3>Domain Adversarial Neural Networks for Domain Generalization: When It Works and How to Improve</h3>
+              <p>DANN-DG &middot; Machine Learning</p>
+              <p class="publication-authors">Anthony Sicilia, <strong>Xingchen Zhao</strong>, Seong Jae Hwang</p>
+              <a class="text-link" href="https://arxiv.org/abs/2102.03924" target="_blank" rel="noreferrer">Paper</a>
+            </div>
+          </article>
+
+          <article class="publication-row">
+            <a class="publication-media" href="https://www.nature.com/articles/s41598-023-35938-3" target="_blank" rel="noreferrer" aria-label="Open Source Data Reweighting paper">
+              <img src="assets/publications/source-data-reweighting.png" alt="Source Data Reweighting three-level optimization framework figure" />
+            </a>
+            <p class="publication-year">2023</p>
+            <div class="publication-copy">
+              <h3>Improve the Performance of CT-Based Pneumonia Classification via Source Data Reweighting</h3>
+              <p>Source Data Reweighting &middot; Scientific Reports</p>
+              <p class="publication-authors">Pengtao Xie, <strong>Xingchen Zhao</strong>, Xuehai He</p>
+              <a class="text-link" href="https://www.nature.com/articles/s41598-023-35938-3" target="_blank" rel="noreferrer">Paper</a>
+            </div>
+          </article>
+
+          <article class="publication-row">
+            <a class="publication-media" href="https://arxiv.org/abs/2205.06427" target="_blank" rel="noreferrer" aria-label="Open Fourier Style Calibration paper">
+              <img src="assets/publications/tf-cal.png" alt="Fourier Style Calibration method overview figure" />
+            </a>
+            <p class="publication-year">2022</p>
+            <div class="publication-copy">
+              <h3>Test-time Fourier Style Calibration for Domain Generalization</h3>
+              <p>Fourier Style Calibration &middot; IJCAI</p>
+              <p class="publication-authors"><strong>Xingchen Zhao</strong>, Chang Liu, Anthony Sicilia, Seong Jae Hwang, Yun Fu</p>
+              <a class="text-link" href="https://arxiv.org/abs/2205.06427" target="_blank" rel="noreferrer">Paper</a>
+            </div>
+          </article>
+
+          <article class="publication-row">
+            <a class="publication-media" href="https://arxiv.org/abs/2212.12552" target="_blank" rel="noreferrer" aria-label="Open Spatial Modeling paper">
+              <img src="assets/publications/spatial-modeling.png" alt="Spatial Modeling FCViT block architecture figure" />
+            </a>
+            <p class="publication-year">2022</p>
+            <div class="publication-copy">
+              <h3>A Close Look at Spatial Modeling: From Attention to Convolution</h3>
+              <p>Spatial Modeling &middot; arXiv</p>
+              <p class="publication-authors">Xu Ma, Huan Wang, Can Qin, Kunpeng Li, <strong>Xingchen Zhao</strong>, Jie Fu, Yun Fu</p>
+              <a class="text-link" href="https://arxiv.org/abs/2212.12552" target="_blank" rel="noreferrer">Paper</a>
+            </div>
+          </article>
+
+          <article class="publication-row">
+            <a class="publication-media" href="https://arxiv.org/abs/2102.06650" target="_blank" rel="noreferrer" aria-label="Open White Matter Hyperintensity Segmentation paper">
+              <img src="assets/publications/wmh-segmentation.png" alt="White Matter Hyperintensity Segmentation MixDANN model figure" />
+            </a>
+            <p class="publication-year">2021</p>
+            <div class="publication-copy">
+              <h3>Robust White Matter Hyperintensity Segmentation on Unseen Domain</h3>
+              <p>White Matter Hyperintensity Segmentation &middot; ISBI</p>
+              <p class="publication-authors"><strong>Xingchen Zhao</strong>, Anthony Sicilia, Davneet Minhas, Erin O'Connor, Howard Aizenstein, William Klunk, Dana Tudorascu, Seong Jae Hwang</p>
+              <a class="text-link" href="https://arxiv.org/abs/2102.06650" target="_blank" rel="noreferrer">Paper</a>
+            </div>
+          </article>
+
+          <article class="publication-row">
+            <a class="publication-media" href="https://arxiv.org/abs/2104.05600" target="_blank" rel="noreferrer" aria-label="Open PAC Bayesian Medical Imaging paper">
+              <img src="assets/publications/pac-bayesian-medical-imaging.png" alt="PAC Bayesian Medical Imaging generalization bound figure" />
+            </a>
+            <p class="publication-year">2021</p>
+            <div class="publication-copy">
+              <h3>PAC Bayesian Performance Guarantees for Deep Stochastic Networks in Medical Imaging</h3>
+              <p>PAC-Bayesian Medical Imaging</p>
+              <p class="publication-authors">Anthony Sicilia, <strong>Xingchen Zhao</strong>, Anastasia Sosnovskikh, Seong Jae Hwang</p>
+              <a class="text-link" href="https://arxiv.org/abs/2104.05600" target="_blank" rel="noreferrer">Paper</a>
+            </div>
+          </article>
+
+          <article class="publication-row">
+            <a class="publication-media" href="https://arxiv.org/abs/2102.13147" target="_blank" rel="noreferrer" aria-label="Open Multi-Domain Meta-Learning paper">
+              <img src="assets/publications/multi-domain-meta-learning.png" alt="Multi-Domain Meta-Learning proposed approach geometry figure" />
+            </a>
+            <p class="publication-year">2021</p>
+            <div class="publication-copy">
+              <h3>Multi-Domain Learning by Meta-Learning: Taking Optimal Steps in Multi-Domain Loss Landscapes by Inner-Loop Learning</h3>
+              <p>Multi-Domain Meta-Learning &middot; ISBI</p>
+              <p class="publication-authors">Anthony Sicilia, <strong>Xingchen Zhao</strong>, Davneet Minhas, Erin O'Connor, Howard Aizenstein, William Klunk, Dana Tudorascu, Seong Jae Hwang</p>
+              <a class="text-link" href="https://arxiv.org/abs/2102.13147" target="_blank" rel="noreferrer">Paper</a>
+            </div>
+          </article>
+
+          <article class="publication-row">
+            <a class="publication-media" href="https://arxiv.org/abs/2012.14288" target="_blank" rel="noreferrer" aria-label="Open Learning by Ignoring paper">
+              <img src="assets/publications/learning-by-ignoring.png" alt="Learning by Ignoring process illustration figure" />
+            </a>
+            <p class="publication-year">2020</p>
+            <div class="publication-copy">
+              <h3>Learning by Ignoring, with Application to Domain Adaptation</h3>
+              <p>Learning by Ignoring &middot; arXiv</p>
+              <p class="publication-authors"><strong>Xingchen Zhao</strong>, Xuehai He, Pengtao Xie</p>
+              <a class="text-link" href="https://arxiv.org/abs/2012.14288" target="_blank" rel="noreferrer">Paper</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-shell contact-section" id="contact" aria-labelledby="contact-title">
+        <div>
+          <h2 id="contact-title">Contact</h2>
+          <p>
+            I am interested in building reliable multimodal AI systems, agentic
+            workflows, and deployment infrastructure for frontier AI products.
+          </p>
+        </div>
+        <div class="contact-links">
+          <a href="mailto:xiz168@yahoo.com">xiz168@yahoo.com</a>
+          <a href="https://tinyurl.com/bddsvxzh" target="_blank" rel="noreferrer">Google Scholar</a>
+          <a href="https://www.linkedin.com/in/xingchenzhao/" target="_blank" rel="noreferrer">LinkedIn</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; 2026 Xingchen Zhao</p>
+      <a href="#home">Back to top</a>
+    </footer>
+  </body>
+</html>

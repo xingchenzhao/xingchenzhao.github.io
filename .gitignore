@@ -1,0 +1,9 @@
+.DS_Store
+*.pdf
+*.tex
+Screenshot*.png
+openai-*.json
+openai-*.html
+openai_role_batches/
+generate_openai_careers_report.py
+assets/publications/text-to-edit-showcase.png
